@@ -1,0 +1,21 @@
+node_modules/
+.next/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+dist/
+build/
+.DS_Store
+.vscode/
+
+# Large GIS/source data
+backend/map_source/assembly_data/
+backend/map_source/*.7z
